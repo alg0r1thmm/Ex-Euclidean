@@ -59,12 +59,6 @@ BIGNUM *XEuclid(BIGNUM *x, BIGNUM *y, const BIGNUM *a, const BIGNUM *b)
 	return a,b,x,y,a1;
 }
 
-/*
-int BN_add(BIGNUM *r, const BIGNUM *a, const BIGNUM *b);
-int BN_mul(BIGNUM *r, const BIGNUM *a, const BIGNUM *b, BN_CTX *ctx);
-int BN_div(BIGNUM *dv, BIGNUM *rem, const BIGNUM *m, const BIGNUM *d, BN_CTX *ctx);
-*/
-
 int main (int argc, char *argv[])
 {
         BIGNUM *a = BN_new();
