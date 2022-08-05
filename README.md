@@ -2,6 +2,8 @@
 
 Best of the Best 11th Task[Extended Euclidean Algorithm]
 
+Install [openssl 3.0.x] before makefile
+
 # Example
 
 ```
